@@ -70,12 +70,12 @@ curl -X POST "http://localhost:8000/verify-identity" \
 ```json
 {
   "is_match": true,
-  "score": 0.85,
-  "distance": 0.15,
+  "score": 0.5397989999999999,
+  "distance": 0.460201,
   "threshold": 0.68,
   "model": "ArcFace",
-  "execution_time": "2.5s",
-  "low_confidence": true  # optional, present if document was blurry
+  "execution_time": "0.53s"
+  // "low_confidence": true  // optional, only included when document image is very blurry
 }
 ```
 
