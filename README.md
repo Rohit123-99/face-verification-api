@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ```
 
 > If you still see an error about modifying pip, copy the suggested command exactly from the output and run it; it typically looks like:
-> `C:\Users\Rohit\Project\Face detection api\venv\Scripts\python.exe -m pip install --upgrade pip`
+> python.exe -m pip install --upgrade pip`
 
 3. Run the server:
 
