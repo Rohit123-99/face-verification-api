@@ -1,6 +1,6 @@
 # Production Face Verification API
 
-High-performance, production-grade Face Verification API built with **FastAPI**, **DeepFace**, and **OpenCV**. Designed for Shaadi.com-scale deployments handling thousands of daily requests with anti-spoofing (liveness detection) and intelligent caching.
+High-performance, production-grade Face Verification API built with **FastAPI**, **DeepFace**, and **OpenCV**. Designed for handling thousands of daily requests with anti-spoofing (liveness detection) and intelligent caching.
 
 ## Features
 
