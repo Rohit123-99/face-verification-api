@@ -1,0 +1,8 @@
+fastapi==0.134.0
+uvicorn==0.30.0
+python-multipart==0.0.6
+opencv-python==4.10.0.84
+deepface==0.0.75
+tf-keras==2.15.1
+onnxruntime-gpu==1.18.1
+numpy==1.24.3
