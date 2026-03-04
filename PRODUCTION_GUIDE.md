@@ -1,6 +1,6 @@
 # Production Deployment Guide
 
-## Scaling for High Load (Shaadi.com / Dating Apps)
+## Scaling for High Load 
 
 ### Your current API limitations
 - **Throughput**: ~1–2 req/sec (synchronous)
@@ -33,8 +33,6 @@ The `--workers 4` flag runs 4 worker processes, multiplying throughput ~4x.
 ---
 
 ## Scaling Further (100s of requests/sec)
-
-For Shaadi.com scale, you'd need:
 
 1. **Load balancer** (Nginx, HAProxy)
    - Distribute across multiple servers
@@ -108,7 +106,7 @@ Returns:
 | Load balanced (4 servers × 4 workers) | 32–80 | 160–800 |
 | Kubernetes auto-scaled | 100+ | 1000+ |
 
-For Shaadi.com scale (thousands of daily signups), use Kubernetes + auto-scaling.
+For thousands of daily signups, use Kubernetes + auto-scaling.
 
 ---
 
